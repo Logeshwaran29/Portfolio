@@ -1,0 +1,13 @@
+.about{
+    height: 70vh;
+    width: 100vw;
+    background: #c33939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 10rem;
+    width: 10rem;
+}
