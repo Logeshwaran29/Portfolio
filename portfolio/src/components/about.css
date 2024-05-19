@@ -1,13 +1,23 @@
 .about{
-    height: 70vh;
-    width: 100vw;
-    background: #c33939;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-.img{
-    height: 10rem;
-    width: 10rem;
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    text-align: center;
+    height: 50%;
+    width: 60%;
+    font-size: larger;
+}
+
+.about-container p{
+    font-size: x-large;
 }

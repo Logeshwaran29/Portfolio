@@ -3,24 +3,3 @@
     margin: 0%;
     font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-.App{
-    overflow: auto;
-    height: 200vh;
-}
-
-.nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: sticky;
-}
-
-.nav ul{
-    width: 30%;
-    height: 3rem;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    font-size: large;
-}

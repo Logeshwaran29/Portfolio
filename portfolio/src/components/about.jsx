@@ -1,12 +1,11 @@
-// import image from "./images/img.jpg"
 import './about.css'
 
 const About = () =>{
     return(
         <div className="about"> 
-           {/* <img className='img' src={image} alt="img"/> */}
-           <div>
-            <h1>Hi, I'm Logeshwaran N</h1>
+           <div className="about-container">
+            <h1>Hi👋🏻, I'm Logeshwaran N</h1>
+            <p>A passionate web developer and recent graduate from K.S.R College of Engineering with a Bachelor of Engineering (B.E.) in Computer Science and Engineering.</p>
            </div>
         </div>
     )

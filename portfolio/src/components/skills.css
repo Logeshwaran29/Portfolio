@@ -1,0 +1,58 @@
+.skills{
+    height: 100dvh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+    padding: 2%;
+    color: black;
+    font-size: larger;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.skills-container{
+    display: flex;
+    height: 50%;
+    width: 90%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgb(0, 204, 255);
+}
+
+.skills-container .block1,.skills-container .block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10%;
+    font-size: 1.35rem;
+}
+
+.skills-container .block2{
+    border-left: .1px solid rgba(0, 0, 0, 0.3);
+    border-right: .1px solid rgba(0, 0, 0, 0.3);
+}
+
+.i{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.block-con{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 5%;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 50%;
+}
+
+.block-con div{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 70%;
+}
