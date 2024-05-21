@@ -1,6 +1,6 @@
 .project{
     height: 100dvh;
-    background-color: rgb(0, 204, 255);
+    background-color: #3b9dff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     padding: 2%;
     color: white;
     font-size: larger;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid black;
 }
 
 .project-container {
@@ -39,9 +39,75 @@
 .div1, .div2, .div3, .div4{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     border-radius: 20px;
     box-shadow: rgba(14, 30, 37, 0.4) 0px 2px 4px 0px, rgba(14, 30, 37, 0.6) 0px 2px 16px 0px;
-    padding: 1%;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 5ms ease-out;
+}
+
+.div-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 90%;
+    gap: 25%;
+    font-size: x-large;
+}
+
+.tech-block{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.tech-img{
+    height: 3rem;
+}
+
+.sub-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    gap: 20%;
+    animation: animate .2s ease-in;
+}
+
+.sub-block-1{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@keyframes animate{
+    0%{
+        scale: .9;
+        opacity: .5;
+    }
+    100%{
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
 }
