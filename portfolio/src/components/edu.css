@@ -45,3 +45,26 @@ h2{
     gap: 5%;
     font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 767px) {
+    .edu{
+        font-size: medium;
+        gap: 5%;
+    }
+    .edu-container{
+        flex-direction: column;
+        height: 80%;
+        gap: 2%;
+    }
+    .div-1{
+        width: 75%;
+        padding: 3%;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+
+    .block{
+        font-size: large;
+    }
+}

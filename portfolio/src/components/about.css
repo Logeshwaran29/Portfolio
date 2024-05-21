@@ -24,3 +24,12 @@
 .about-container p{
     font-size: x-large;
 }
+
+@media only screen and (max-width: 767px) {
+    .about-container{
+        width: 80%;
+    }
+    .about-container p{
+        font-size: larger;
+    }
+}

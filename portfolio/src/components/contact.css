@@ -47,3 +47,16 @@
     font-size: medium;
     opacity: .5;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .contact{
+        font-size: medium;
+    }
+    .cont-con{
+        width: 50%;
+    }
+    .footer{
+        font-size: small;
+    }
+}
