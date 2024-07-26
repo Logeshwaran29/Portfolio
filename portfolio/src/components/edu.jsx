@@ -9,7 +9,7 @@ const Edu = ()=>{
                     <h2>Bachelor of Engineering (B.E - CSE)</h2>
                     <div className="block">
                         <p><b>Institute : </b>K.S.R. College of Engineering, Tiruchengode.</p>
-                        <p><b>CGPA : </b>7.689 (upto 7th sem)</p>
+                        <p><b>CGPA : </b>7.73</p>
                         <p><b>Completed in : </b>2024</p>
                     </div>
                 </div>
